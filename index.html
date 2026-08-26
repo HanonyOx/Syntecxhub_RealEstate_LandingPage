@@ -1,12 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/96b2aaa3bb.js"></script>
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <section id="Home">
+      <!-- NAV LINKS -->
+      <nav>
+        <!-- LOGO -->
+        <h1>
+          <span><i class="fa-solid fa-house-tsunami"></i> </span>HomeNest
+        </h1>
+
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Properties</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Services</a></li>
+        </ul>
+
+        <button>Contact Us</button>
+
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+
+      <!-- BODY OF HOME -->
+      <div class="body">
+        <h1>Find Your Dream <br />Home Today</h1>
+        <p>
+          Discover beautiful properties in the best locations. <br />
+          Your perfect home is just a search away.
+        </p>
+      </div>
+
+      <!-- FORM AND FILTER BUTTON -->
+      <div class="form">
+        <div class="buttons">
+          <button class="btn">Buy</button>
+          <button class="btn1">Rent</button>
+          <button class="btn2">Sell</button>
+        </div>
+        <form>
+          <div>
+            <label for="location">Location</label>
+            <div class="input"><input type="text" placeholder="Enter Your Location" /><i class="fa-solid fa-location-dot"></i></div>
+          </div>
+
+          <!-- Property Type -->
+          <div>
+            <label for="propertyType">Property Type</label>
+
+            <select id="propertyType" name="propertyType">
+              <option value="" disabled selected>Select Type</option>
+              <option value="House">House</option>
+              <option value="Apartment">Apartment</option>
+              <option value="Villa">Villa</option>
+              <option value="Town">Town House</option>
+              <option value="Luxury">Luxury Estate</option>
+              <option value="Space">Commercial Space</option>
+            </select>
+          </div>
+
+          <!-- Price Range -->
+          <div>
+            <label for="propertyType">Price Range</label>
+
+            <select id="propertyType" name="propertyType">
+              <option value="" disabled selected>Price Range</option>
+              <option value="House">Under $250,000</option>
+              <option value="Apartment">$250,000 - $500,000</option>
+              <option value="Villa">$500,000 - $750,000</option>
+              <option value="Town">$750,000 - $1,000,000</option>
+              <option value="Luxury">$1,000,000+</option>
+            </select>
+          </div>
+
+          <Button class="btn4">Search Property</Button>
+
+        </form>
+
+      </div>
+    </section>
+  </body>
 </html>
