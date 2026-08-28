@@ -21,7 +21,7 @@
           <li><a href="#Home">Home</a></li>
           <li><a href="#properties">Properties</a></li>
           <li><a href="#about">About Us</a></li>
-          <li><a href="">Services</a></li>
+          <li><a href="#services">Services</a></li>
         </ul>
 
         <button>Contact Us</button>
@@ -52,7 +52,11 @@
         <form>
           <div>
             <label for="location">Location</label>
-            <div class="input"><input type="text" placeholder="Enter Your Location" /><i class="fa-solid fa-location-dot"></i></div>
+            <div class="input">
+              <input type="text" placeholder="Enter Your Location" /><i
+                class="fa-solid fa-location-dot"
+              ></i>
+            </div>
           </div>
 
           <!-- Property Type -->
@@ -84,173 +88,390 @@
             </select>
           </div>
 
-          <Button class="btn4">Search Property</Button>
-
+          <button class="btn4">Search Property</button>
         </form>
-
       </div>
     </section>
 
     <!-- PROPERTIES SECTION -->
-     <section id="properties">
-       <div class="property-info">
+    <section id="properties">
+      <div class="property-info">
         <div class="property-info-r">
-            <h1>Featured Properties</h1>
-            <p>Explore our handpicked selection of premium properties.</p>
+          <h1>Featured Properties</h1>
+          <p>Explore our handpicked selection of premium properties.</p>
         </div>
 
         <div class="property-info-l">
-            <h3>View All properties</h3>
-            <div class="div">
-                <span><i class="fa-solid fa-caret-left"></i></span>
-                <span><i class="fa-solid fa-caret-right"></i></span>
-            </div>
+          <h3>View All properties</h3>
+          <div class="div">
+            <span><i class="fa-solid fa-caret-left"></i></span>
+            <span><i class="fa-solid fa-caret-right"></i></span>
+          </div>
         </div>
-       </div>
+      </div>
 
-       <!-- Featured properties -->
-        <div class="property-card">
+      <!-- Featured properties -->
+      <div class="property-card">
+        <!-- First property Card -->
+        <div class="property-cards">
+          <div class="property-img">
+            <img
+              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+              alt="Modern Family House"
+            />
+          </div>
 
-            <!-- First property Card -->
-            <div class="property-cards">
-              <div class="property-img">
-                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Modern Family House">
-              </div>
-
-              <div  class="property-cards-info">
-                <div  class="property-cards-info-text">
-                    <h1>Modern Family House</h1>
-                    <p><i class="fa-solid fa-location-dot"></i>Los Angeles, California</p>
-                </div>
-
-                <div  class="property-cards-details">
-                    <span><i class="fa-solid fa-bed"></i>4 Beds</span>
-                    <span><i class="fa-solid fa-bath"></i>3 Bath</span>
-                    <span><i class="fa-solid fa-ruler-combined"></i>2500 Sqft</span>
-                </div>
-
-                <h1 class="property-text">$850,000</h1>
-              </div>
+          <div class="property-cards-info">
+            <div class="property-cards-info-text">
+              <h1>Modern Family House</h1>
+              <p>
+                <i class="fa-solid fa-location-dot"></i>Los Angeles, California
+              </p>
             </div>
 
-
-            <!-- Second property Card -->
-            <div  class="property-cards">
-              <div class="property-img">
-                <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" alt="Luxury Apartment">
-              </div>
-
-              <div  class="property-cards-info">
-                <div  class="property-cards-info-text">
-                    <h1>Luxury Apartment</h1>
-                    <p><i class="fa-solid fa-location-dot"></i>Los New York, New York</p>
-                </div>
-
-                <div class="property-cards-details">
-                    <span><i class="fa-solid fa-bed"></i>2 Beds</span>
-                    <span><i class="fa-solid fa-bath"></i>2 Bath</span>
-                    <span><i class="fa-solid fa-ruler-combined"></i>1200 Sqft</span>
-                </div>
-
-                <h1 class="property-text">$3200/ Month</h1>
-              </div>
+            <div class="property-cards-details">
+              <span><i class="fa-solid fa-bed"></i>4 Beds</span>
+              <span><i class="fa-solid fa-bath"></i>3 Bath</span>
+              <span><i class="fa-solid fa-ruler-combined"></i>2500 Sqft</span>
             </div>
 
-
-            <!-- Third property Card -->
-            <div  class="property-cards">
-              <div class="property-img">
-                <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=800&q=80" alt="Ocean View Villa">
-              </div>
-
-              <div   class="property-cards-info">
-                <div class="property-cards-info-text">
-                    <h1>Ocean View Villa</h1>
-                    <p><i class="fa-solid fa-location-dot"></i>Los Miami, Florida</p>
-                </div>
-
-                <div class="property-cards-details">
-                    <span><i class="fa-solid fa-bed"></i>5 Beds</span>
-                    <span><i class="fa-solid fa-bath"></i>4 Bath</span>
-                    <span><i class="fa-solid fa-ruler-combined"></i>3500 Sqft</span>
-                </div>
-
-                <h1 class="property-text">$1,450,000</h1>
-              </div>
-            </div>
-
-
-            <!-- Fourth property Card -->
-            <div  class="property-cards">
-              <div class="property-img">
-                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80" alt="City Apartment">
-              </div>
-
-              <div class="property-cards-info">
-                <div class="property-cards-info-text">
-                    <h1>City Apartment</h1>
-                    <p><i class="fa-solid fa-location-dot"></i>Los Chicago, Illinois</p>
-                </div>
-
-                <div class="property-cards-details">
-                    <span><i class="fa-solid fa-bed"></i>3 Beds</span>
-                    <span><i class="fa-solid fa-bath"></i>2 Bath</span>
-                    <span><i class="fa-solid fa-ruler-combined"></i>1800 Sqft</span>
-                </div>
-
-                <h1 class="property-text">$620,000</h1>
-              </div>
-            </div>
+            <h1 class="property-text">$850,000</h1>
+          </div>
         </div>
 
+        <!-- Second property Card -->
+        <div class="property-cards">
+          <div class="property-img">
+            <img
+              src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80"
+              alt="Luxury Apartment"
+            />
+          </div>
+
+          <div class="property-cards-info">
+            <div class="property-cards-info-text">
+              <h1>Luxury Apartment</h1>
+              <p>
+                <i class="fa-solid fa-location-dot"></i>Los New York, New York
+              </p>
+            </div>
+
+            <div class="property-cards-details">
+              <span><i class="fa-solid fa-bed"></i>2 Beds</span>
+              <span><i class="fa-solid fa-bath"></i>2 Bath</span>
+              <span><i class="fa-solid fa-ruler-combined"></i>1200 Sqft</span>
+            </div>
+
+            <h1 class="property-text">$3200/ Month</h1>
+          </div>
+        </div>
+
+        <!-- Third property Card -->
+        <div class="property-cards">
+          <div class="property-img">
+            <img
+              src="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=800&q=80"
+              alt="Ocean View Villa"
+            />
+          </div>
+
+          <div class="property-cards-info">
+            <div class="property-cards-info-text">
+              <h1>Ocean View Villa</h1>
+              <p><i class="fa-solid fa-location-dot"></i>Los Miami, Florida</p>
+            </div>
+
+            <div class="property-cards-details">
+              <span><i class="fa-solid fa-bed"></i>5 Beds</span>
+              <span><i class="fa-solid fa-bath"></i>4 Bath</span>
+              <span><i class="fa-solid fa-ruler-combined"></i>3500 Sqft</span>
+            </div>
+
+            <h1 class="property-text">$1,450,000</h1>
+          </div>
+        </div>
+
+        <!-- Fourth property Card -->
+        <div class="property-cards">
+          <div class="property-img">
+            <img
+              src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80"
+              alt="City Apartment"
+            />
+          </div>
+
+          <div class="property-cards-info">
+            <div class="property-cards-info-text">
+              <h1>City Apartment</h1>
+              <p>
+                <i class="fa-solid fa-location-dot"></i>Los Chicago, Illinois
+              </p>
+            </div>
+
+            <div class="property-cards-details">
+              <span><i class="fa-solid fa-bed"></i>3 Beds</span>
+              <span><i class="fa-solid fa-bath"></i>2 Bath</span>
+              <span><i class="fa-solid fa-ruler-combined"></i>1800 Sqft</span>
+            </div>
+
+            <h1 class="property-text">$620,000</h1>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ABOUT SECTION -->
-     <section id="about">
-   <h1>Why Choose HomeNest</h1>
-   <p class="p">At HomeNest, we make finding your perfect home simple and stress-free. From modern family houses to luxury apartments and villas, we bring you carefully selected properties in desirable locations. Our goal is to help you discover a place that truly feels like home.</p>
+    <section id="about">
+      <h1>Why Choose HomeNest</h1>
+      <p class="p">
+        At HomeNest, we make finding your perfect home simple and stress-free.
+        From modern family houses to luxury apartments and villas, we bring you
+        carefully selected properties in desirable locations. Our goal is to
+        help you discover a place that truly feels like home.
+      </p>
 
-   <div class="about1">
-    <!-- FIRST CARD -->
-       <div class="about-cards">
-        <span><i class="fa-solid fa-user-shield"></i></span>
-        <div class="about-cards-text">
+      <div class="about1">
+        <!-- FIRST CARD -->
+        <div class="about-cards">
+          <span><i class="fa-solid fa-user-shield"></i></span>
+          <div class="about-cards-text">
             <h3>Verified Properties</h3>
             <p>All properties are verified for quality and authenticity.</p>
+          </div>
         </div>
-       </div>
 
-    <!-- SECOND CARD -->
-       <div class="about-cards">
-        <span><i class="fa-solid fa-medal"></i></span>
-        <div class="about-cards-text">
+        <!-- SECOND CARD -->
+        <div class="about-cards">
+          <span><i class="fa-solid fa-medal"></i></span>
+          <div class="about-cards-text">
             <h3>Best Price Guarantee</h3>
             <p>We ensure you get the best price in the market.</p>
+          </div>
         </div>
-       </div>
 
-   
-    <!-- THIRD CARD -->
-       <div class="about-cards">
-        <span><i class="fa-solid fa-headset"></i></span>
-        <div class="about-cards-text">
+        <!-- THIRD CARD -->
+        <div class="about-cards">
+          <span><i class="fa-solid fa-headset"></i></span>
+          <div class="about-cards-text">
             <h3>Expert Support</h3>
             <p>Our team is here to help you every step of the way..</p>
+          </div>
         </div>
-       </div>
 
-  
-    <!-- FOURTH CARD -->
-       <div class="about-cards">
-        <span><i class="fa-solid fa-business-time"></i></span>
-        <div class="about-cards-text">
+        <!-- FOURTH CARD -->
+        <div class="about-cards">
+          <span><i class="fa-solid fa-business-time"></i></span>
+          <div class="about-cards-text">
             <h3>Easy process</h3>
             <p>Simple and transparent process from start to finish</p>
+          </div>
         </div>
-       </div>
+      </div>
 
+      <div class="reviews">
+        <!-- First Review card -->
+        <div class="reviews-card">
+          <span><i class="fa-solid fa-house"></i></span>
+          <div class="reviews-text">
+            <h1>10K+</h1>
+            <p>Properties Listed</p>
+          </div>
+        </div>
 
-   </div>
-     </section>
+        <!-- Second Review card -->
+        <div class="reviews-card">
+          <span><i class="fa-solid fa-users"></i></span>
+          <div class="reviews-text">
+            <h1>25K+</h1>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+
+        <!-- Third Review card -->
+        <div class="reviews-card">
+          <span><i class="fa-solid fa-award"></i></span>
+          <div class="reviews-text">
+            <h1>15+</h1>
+            <p>Years of Experience</p>
+          </div>
+        </div>
+
+        <!-- Fourth Review card -->
+        <div class="reviews-card">
+          <span><i class="fa-solid fa-user-tie"></i></span>
+          <div class="reviews-text">
+            <h1>50+</h1>
+            <p>Expert Agent</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <h1>What Our clients say</h1>
+        <p></p>
+
+        <div class="testimonals">
+          <!-- First Testimonial Card -->
+          <div class="testimonial-card">
+            <div class="testimonial-text">
+              <span><i class="fa-solid fa-quote-left"></i></span>
+              <p>
+                HomeNest made finding our dream home so easy. The team was
+                professional and helpful throughout the entire process.
+              </p>
+            </div>
+
+            <div class="client">
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80"
+                alt="Sarah Johnson"
+              />
+              <div class="client-text">
+                <h3>Sarh Johnson</h3>
+                <p>Home Buyer</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second Testimonial Card -->
+          <div class="testimonial-card">
+            <div class="testimonial-text">
+              <span><i class="fa-solid fa-quote-left"></i></span>
+              <p>
+                Great experience! Found the perfect apartment in a great
+                location. Highly recommend Home Nest
+              </p>
+            </div>
+
+            <div class="client">
+              <img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=200&q=80"
+                alt="Michael Brown"
+              />
+              <div class="client-text">
+                <h3>Michael Brown</h3>
+                <p>Tenant</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Testimonial Card -->
+          <div class="testimonial-card">
+            <div class="testimonial-text">
+              <span><i class="fa-solid fa-quote-left"></i></span>
+              <p>
+                As an investor, I appreciate the quality properties and
+                excellent customer service HomeNest provides.
+              </p>
+            </div>
+
+            <div class="client">
+              <img
+                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=200&q=80"
+                alt="David Wilson"
+              />
+              <div class="client-text">
+                <h3>David Wilson</h3>
+                <p>Real Estate Investor</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fourth Testimonial Card -->
+          <div class="testimonial-card">
+            <div class="testimonial-text">
+              <span><i class="fa-solid fa-quote-left"></i></span>
+              <p>
+                HomeNest made the whole process smooth and stress-free. I found
+                a beautiful home that perfectly matched what I was looking for.
+              </p>
+            </div>
+
+            <div class="client">
+              <img
+                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80"
+                alt="Emily Davis"
+              />
+
+              <div class="client-text">
+                <h3>Emily Davis</h3>
+                <p>Homeowner</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE SECTION -->
+    <section id="services">
+      <div class="services-text">
+        <div class="text-r">
+          <h1>Latest News & Tips</h1>
+          <p>Stay updated with the latest real estate news and tips.</p>
+        </div>
+        <h2>View All Article</h2>
+      </div>
+
+       <!-- Articles -->
+        <div class="Articles">
+
+          <!-- First article card -->
+          <div class="article-card">
+            <div class="article-img">
+              <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=600&q=80" alt="">
+            </div>
+            <div class="article-text">
+              <h2>10 Tips for First-Time Home Buyers</h2>
+              <div class="atext">
+                <p>May 15, 2024</p>
+              <span>more...</span>
+            </div>
+            </div>
+          </div>
+
+          <!-- Second article card -->
+          <div class="article-card">
+            <div class="article-img">
+              <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=600&q=80" alt="">
+            </div>
+            <div class="article-text">
+              <h2>Best Neighborhoods to Invest In</h2>
+              <div class="atext">
+                <p>May 5, 2026</p>
+              <span>more...</span>
+            </div>
+            </div>
+          </div>
+
+          <!--Third article card -->
+          <div class="article-card">
+            <div class="article-img">
+              <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80" alt="">
+            </div>
+            <div class="article-text">
+              <h2>How to Increase Your Property Value</h2>
+              <div class="atext">
+                <p>May 10, 2026</p>
+              <span>more...</span>
+            </div>
+            </div>
+          </div>
+
+          <!-- Fourth article card -->
+          <div class="article-card">
+            <div class="article-img">
+              <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=80" alt="">
+            </div>
+            <div class="article-text">
+              <h2>Real Estate Market Trends 2024</h2>
+              <div class="atext">
+                <p>June 5, 202</p>
+              <span>more...</span>
+            </div>
+            </div>
+          </div>
+        </div>
+    </section>
   </body>
 </html>
